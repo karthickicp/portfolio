@@ -42,11 +42,11 @@ export const TopSection = () => {
             <div className="flex-1">
               <div className="flex items-center">
                 <img src={hand} alt="hand-sign" className="me-4" />
-                <p className="3xl:text-[4.375rem] leading-[6.431rem] font-extrabold w-auto float-start">
+                <p className="text-[3.75rem] leading-[5rem] 3xl:text-[4.375rem] 3xl:leading-[6.431rem] font-extrabold w-auto float-start">
                   Hello!
                 </p>
               </div>
-              <h1 className="3xl:text-[4.375rem] font-extrabold mb-10 leading-[5.625rem]">
+              <h1 className="text-[3.75rem] leading-[5rem] 3xl:text-[4.375rem] font-extrabold mb-10 3xl:leading-[5.625rem]">
                 I'm Sr UI/UX Designer located in India
               </h1>
               <p className="text-[#646567] para-text">
@@ -56,16 +56,16 @@ export const TopSection = () => {
                 insights.
               </p>
             </div>
-            <div className="relative flex-1">
+            <div className="relative flex-1 flex justify-end">
               <img
                 src={profilePicture}
                 alt="profile-picture"
-                className="max-h-[700px] 3xl:max-h-[100%]"
+                className="max-h-[750px] 3xl:max-h-[100%]"
               />
               <img
                 src={profilePictureShadow}
                 alt="profile-picture"
-                className="absolute max-h-[700px] 3xl:max-h-[100%] top-0"
+                className="absolute max-h-[750px] 3xl:max-h-[100%] top-0"
               />
             </div>
           </div>

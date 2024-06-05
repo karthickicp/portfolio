@@ -2,7 +2,7 @@ import { MY_PROJECTS } from "../../constants";
 
 export const MyWorks = () => {
   return (
-    <section className="wrapper">
+    <section className="wrapper mb-[140px]">
       <div className="container">
         <p className="text-[1.125rem] leading-[1.654rem] tracking-widest mb-[0.875rem]">
           MY PORTFOLIO
@@ -20,13 +20,14 @@ export const MyWorks = () => {
           {MY_PROJECTS.map((project, index) => (
             <div
               key={`project-${index}`}
-              className={`h-[400px] rounded-md pt-[90px] px-[60px] ${
+              className={`relative rounded-md pt-[90px] max-h-[830px] overflow-hidden ${
                 project.textColor === "light" ? "text-white" : "text-black"
               }`}
               style={{ backgroundColor: `${project.bg}` }}
             >
-              <p>{project.category}</p>
-              <p>{project.title}</p>
+              <p className="font-medium tracking-widest uppercase mb-3 opacity-70 px-[60px]">{project.category}</p>
+              <p className="text-[2.125rem] leading-[3.125rem] px-[60px] font-extrabold capitalize">{project.title}</p>
+              <img src={project.img} alt="work" className={project.imgClass}/>
             </div>
           ))}
         </div>
