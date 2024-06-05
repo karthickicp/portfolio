@@ -27,7 +27,7 @@ export const MyWorks = () => {
             >
               <p className="font-medium tracking-widest uppercase mb-3 opacity-70 px-[60px]">{project.category}</p>
               <p className="text-[2.125rem] leading-[3.125rem] px-[60px] font-extrabold capitalize">{project.title}</p>
-              <img src={project.img} alt="work" className={project.imgClass}/>
+              <img src={project.img} alt="work" className={project.imgClass} loading="lazy"/>
             </div>
           ))}
         </div>
