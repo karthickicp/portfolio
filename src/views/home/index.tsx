@@ -1,7 +1,7 @@
 import { MyWorks } from "./myWorks";
 import { TopSection } from "./topSection";
 
-const HomePage = () => {
+export const HomePage = () => {
   return (
     <>
       <TopSection />
@@ -10,4 +10,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+// export default HomePage;

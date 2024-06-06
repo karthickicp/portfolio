@@ -7,8 +7,11 @@ export default {
         black: "#0F141E",
       },
       screens: {
-        '3xl': '1600px',
-      }
+        "3xl": "1600px",
+      },
+      textColor: {
+        paragraph: "#646567",
+      },
     },
     letterSpacing: {
       wide: ".025em",
