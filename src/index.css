@@ -44,8 +44,3 @@ body {
 .descSec .para-text {
   max-width: 680px;
 }
-
-/* tailwind css styles */
-.view-work-sec {
-  @apply pt-7 pb-7 ps-10 pe-10;
-}
