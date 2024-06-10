@@ -1,3 +1,4 @@
+import { MyLearning } from "./myLearning";
 import { MyWorks } from "./myWorks";
 import { TopSection } from "./topSection";
 
@@ -6,6 +7,7 @@ export const HomePage = () => {
     <>
       <TopSection />
       <MyWorks />
+      <MyLearning />
     </>
   );
 };

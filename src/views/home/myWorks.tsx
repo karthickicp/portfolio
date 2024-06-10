@@ -5,10 +5,10 @@ export const MyWorks = () => {
   return (
     <section className="wrapper mb-[140px]">
       <div className="container">
-        <p className="text-[1.125rem] leading-[1.654rem] tracking-widest mb-[0.875rem]">
+        <p className="sec-category">
           MY PORTFOLIO
         </p>
-        <h2 className="mb-10 text-black text-[4.25rem] font-extrabold leading-[90px]">
+        <h2 className="sec-title">
           Selected Works
         </h2>
         <p className="text-[#666] para-text">

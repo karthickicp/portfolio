@@ -7,7 +7,7 @@ import hand from "@/assets/img/icons/hand-symbol.svg";
 
 export const TopSection = () => {
   return (
-    <div className="wrapper topSec relative h-screen">
+    <div className="wrapper topSec relative">
       <div className="container">
         <div className="flex justify-between items-center mt-[3rem] text-black">
           <div>
@@ -36,12 +36,12 @@ export const TopSection = () => {
         </div>
       </div>
 
-      <h1 className=" text-[17.5vw] 3xl:text-[18.75rem] text-white -z-10 font-extrabold leading-[17.5rem] text-center top-0 drop-shadow-[0_30px_100px_rgba(0,0,0,0.08)]">
+      <h1 className=" text-[17.5vw] 3xl:text-[18.75rem] text-white -z-10 font-extrabold leading-[17.5rem] text-center drop-shadow-[0_30px_100px_rgba(0,0,0,0.08)] relative">
         Mohammad <br /> Mansoor <br /> Ashik
       </h1>
       <div className="w-full float-start absolute bottom-0">
         <div className="container">
-          <div className="flex items-center descSec">
+          <div className="flex items-end descSec mb-[130px]">
             <div className="flex-1">
               <div className="flex items-center">
                 <img src={hand} alt="hand-sign" className="me-4" />

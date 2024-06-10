@@ -17,6 +17,10 @@ body {
   margin: auto;
 }
 
+.topSec {
+  height: calc(100vh - 106px);
+}
+
 /* .topSec {
   background-image: url('./assets/img/topSec-bg.png');
 } */
@@ -34,13 +38,22 @@ body {
 
 .descSec {
   height: 900px;
-  background: url("./assets/img/profile.png");
+  /* background: url("./assets/img/profile.png"); */
   background-repeat: no-repeat;
-  background-position: right;
+  /* background-position: right bottom;
+  background-size: auto 900px; */
 }
 .descSec h1 {
   width: min(60%, 783px);
 }
 .descSec .para-text {
   max-width: 680px;
+}
+
+/* custom tailwind styles */
+.sec-title {
+  @apply mb-10 text-black text-[4.25rem] font-extrabold leading-[90px];
+}
+.sec-category {
+  @apply text-[1.125rem] leading-[1.654rem] tracking-widest mb-[0.875rem];
 }
