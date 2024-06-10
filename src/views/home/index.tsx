@@ -1,5 +1,7 @@
+import { DribbleShots } from "./dribbleShots";
 import { MyLearning } from "./myLearning";
 import { MyWorks } from "./myWorks";
+import { Testimonials } from "./testimonials";
 import { TopSection } from "./topSection";
 
 export const HomePage = () => {
@@ -8,6 +10,8 @@ export const HomePage = () => {
       <TopSection />
       <MyWorks />
       <MyLearning />
+      <Testimonials />
+      <DribbleShots />
     </>
   );
 };

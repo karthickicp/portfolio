@@ -52,8 +52,32 @@ body {
 
 /* custom tailwind styles */
 .sec-title {
-  @apply mb-10 text-black text-[4.25rem] font-extrabold leading-[90px];
+  @apply text-black text-[4.25rem] font-extrabold leading-[90px];
 }
 .sec-category {
   @apply text-[1.125rem] leading-[1.654rem] tracking-widest mb-[0.875rem];
+}
+.wrapper-space {
+  @apply mb-[8.75rem];
+}
+.titleSec {
+  @apply mb-14;
+}
+.profile {
+  @apply flex items-center gap-5;
+}
+.testimonial-card {
+  @apply p-[1.875rem] border border-[#DFDFDF] rounded-lg h-full flex justify-between flex-col;
+}
+.testimonial-desc {
+  @apply text-[18px] text-paragraph leading-[1.75rem] mb-6;
+}
+.testimonial-name {
+  @apply text-[1.5rem] leading-[2.205rem] text-[#000] font-medium mb-[0.375rem];
+}
+.testimonial-role {
+  @apply text-[1.25rem] leading-[1.838rem] font-medium text-[#878A8F];
+}
+.dribble-images {
+  @apply rounded-[0.375rem];
 }

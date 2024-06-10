@@ -21,7 +21,7 @@
         "./public/*"
       ],
       "@/*": [
-        "./src/*"
+        "src/*"
       ]
     },
     "resolveJsonModule": true,

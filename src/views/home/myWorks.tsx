@@ -1,23 +1,18 @@
-import { OutlinedBtn } from "@/components";
 import { MY_PROJECTS } from "@/constants";
 
 export const MyWorks = () => {
   return (
-    <section className="wrapper mb-[140px]">
+    <section className="wrapper wrapper-space">
       <div className="container">
-        <p className="sec-category">
-          MY PORTFOLIO
-        </p>
-        <h2 className="sec-title">
-          Selected Works
-        </h2>
+        <p className="sec-category">MY PORTFOLIO</p>
+        <h2 className="sec-title mb-10">Selected Works</h2>
         <p className="text-[#666] para-text">
           I've worked on lots of different projects, leading efforts to
           understand users and turn that understanding into designs that just
           make sense. I believe in working together to create awesome things.
         </p>
 
-        <div className=" grid grid-cols-2 gap-[60px] mt-20 mb-[140px]">
+        <div className=" grid grid-cols-2 gap-[60px] mt-20">
           {MY_PROJECTS.map((project, index) => (
             <div
               key={`project-${index}`}
@@ -40,23 +35,6 @@ export const MyWorks = () => {
               />
             </div>
           ))}
-        </div>
-
-        <div className="flex justify-between items-center gap-8 pt-7 pb-7 ps-10 pe-10 border-2 border-[#CEE7FF] rounded-[10px] bg-[#F7F8F9]">
-          <div>
-            <h4 className=" text-[2rem] leading-[47.04px] tracking-wide mb-3 font-medium">
-              I have worked over 100+ templates for VictorThemes on Themeforest.
-            </h4>
-            <p className="text-[22px] leading-[2.375rem] text-paragraph">
-              Each template reflects a journey of innovation and great attention
-              to detail, aimed at exceeding market expectations and setting new
-              standards.
-            </p>
-          </div>
-          <OutlinedBtn
-            buttonText="View All Templates"
-            className={"flex-1 min-w-[200px]"}
-          />
         </div>
       </div>
     </section>
