@@ -11,7 +11,7 @@ export const DribbleShots = () => {
           <h2 className="sec-title">Dribbble Shots</h2>
         </div>
         <div className="w-full float-start flex justify-between gap-[70px]">
-          <div className="dribble-image-cover">
+          <div className="dribble-image-cover bg-[#E8ECED]">
             <img
               src={dribbleShotOne}
               alt="dribble-shot-1"
@@ -19,7 +19,7 @@ export const DribbleShots = () => {
               className="dribble-images"
             />
           </div>
-          <div className="dribble-image-cover">
+          <div className="dribble-image-cover bg-[#F1F1F1]">
             <img
               src={dribbleShotTwo}
               alt="dribble-shot-2"
@@ -27,7 +27,7 @@ export const DribbleShots = () => {
               className="dribble-images"
             />
           </div>
-          <div className="dribble-image-cover">
+          <div className="dribble-image-cover bg-[#E2E4F0]">
             <img
               src={dribbleShotThree}
               alt="dribble-shot-3"
