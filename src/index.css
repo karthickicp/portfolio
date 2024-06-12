@@ -20,7 +20,15 @@ body {
 .topSec {
   height: calc(100vh - 106px);
 }
-
+.my-projects .case-study, .my-projects .overlay{
+  opacity: 0;
+}
+.my-projects:hover .case-study {
+  opacity: 1;
+}
+.my-projects:hover .overlay {
+  opacity: 90% !important;
+}
 /* .topSec {
   background-image: url('./assets/img/topSec-bg.png');
 } */
