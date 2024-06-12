@@ -20,7 +20,7 @@ export const MyWorks = () => {
               } transition-all ease-in duration-3000`}
               style={{ backgroundColor: `${project.bg}` }}
             >
-              <div className="px-[60px] relative z-10">
+              <div className="px-[60px] relative z-10 case-study-desc">
                 <p className="font-medium tracking-widest uppercase mb-3 opacity-70">{project.category}</p>
                 <p className="text-[2.125rem] leading-[3.125rem]  font-extrabold capitalize mb-[30px]">{project.title}</p>
                 <div className="flex items-center case-study w-full">
@@ -28,8 +28,7 @@ export const MyWorks = () => {
                   <img src={arrowRight} alt="arrow-right" loading="lazy" />
                 </div>
               </div>
-              <div className="bg-black w-full h-full absolute top-0 right-0 overlay" />
-
+              <div className="bg-black w-full h-full absolute top-0 right-0 overlay z-1" />
               <img src={project.img} alt="work" className={project.imgClass} loading="lazy" />
             </div>
           ))}
