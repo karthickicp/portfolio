@@ -17,33 +17,26 @@ export const Testimonials = () => {
           slidesPerView={2}
           spaceBetween={30}
           loop={true}
-          autoplay={true}
+          autoplay={{
+            disableOnInteraction: true,
+            pauseOnMouseEnter: true,
+          }}
           modules={[Pagination, Navigation, Autoplay]}
         >
           <SwiperSlide className="h-auto">
             <div className="testimonial-card">
               <p className="testimonial-desc">
-                I’ve had the pleasure of working with Mansoor Ashik for the past
-                few years at VictorThemes, and I can confidently say he’s an
-                exceptional UI/UX designer. His ability to understand user needs
-                and translate them into intuitive and visually appealing
-                interfaces is truly remarkable. He’s consistently goes above and
-                beyond, always willing to put in the extra effort to ensure our
-                projects are successful. He’s a valuable asset to any team and I
-                highly recommend him to anyone seeking a talented and dedicated
-                UI/UX designer.
+                I’ve had the pleasure of working with Mansoor Ashik for the past few years at VictorThemes, and I can confidently say
+                he’s an exceptional UI/UX designer. His ability to understand user needs and translate them into intuitive and visually
+                appealing interfaces is truly remarkable. He’s consistently goes above and beyond, always willing to put in the extra
+                effort to ensure our projects are successful. He’s a valuable asset to any team and I highly recommend him to anyone
+                seeking a talented and dedicated UI/UX designer.
               </p>
               <div className="profile">
-                <img
-                  src={testimonialOne}
-                  alt="testimonial-one"
-                  loading="lazy"
-                />
+                <img src={testimonialOne} alt="testimonial-one" loading="lazy" />
                 <div>
                   <p className="testimonial-name">Altaf Rahman</p>
-                  <p className="testimonial-role">
-                    Co-Founder, Cyberspace Builder
-                  </p>
+                  <p className="testimonial-role">Co-Founder, Cyberspace Builder</p>
                 </div>
               </div>
             </div>
@@ -51,28 +44,17 @@ export const Testimonials = () => {
           <SwiperSlide className="h-auto">
             <div className="testimonial-card">
               <p className="testimonial-desc">
-                Having had the opportunity to collaborate with Mansoor Ashik for
-                several years now, I can wholeheartedly vouch for his expertise
-                as a UI/UX designer. His talent for combining user-centric
-                design principles with a keen eye for aesthetics consistently
-                elevates our projects. He’s dedication and collaborative spirit
-                are truly commendable. He readily embraces feedback and works
-                seamlessly with other team members to achieve the best possible
-                outcome. I highly recommend Ashik to any company seeking a
-                top-notch UI/UX designer who can effectively translate vision
-                into reality.
+                Having had the opportunity to collaborate with Mansoor Ashik for several years now, I can wholeheartedly vouch for his
+                expertise as a UI/UX designer. His talent for combining user-centric design principles with a keen eye for aesthetics
+                consistently elevates our projects. He’s dedication and collaborative spirit are truly commendable. He readily embraces
+                feedback and works seamlessly with other team members to achieve the best possible outcome. I highly recommend Ashik to
+                any company seeking a top-notch UI/UX designer who can effectively translate vision into reality.
               </p>
               <div className="profile">
-                <img
-                  src={testimonialTwo}
-                  alt="testimonial-two"
-                  loading="lazy"
-                />
+                <img src={testimonialTwo} alt="testimonial-two" loading="lazy" />
                 <div>
                   <p className="testimonial-name">Ansif</p>
-                  <p className="testimonial-role">
-                    Co-Founder, Cyberspace Builder
-                  </p>
+                  <p className="testimonial-role">Co-Founder, Cyberspace Builder</p>
                 </div>
               </div>
             </div>
@@ -80,23 +62,15 @@ export const Testimonials = () => {
           <SwiperSlide className="h-auto">
             <div className="testimonial-card">
               <p className="testimonial-desc">
-                Mansoor Ashik has been a fantastic UI/UX designer for our
-                company. He's hardworking, creative, and always friendly. His
-                dedication to his work is commendable, and we highly recommend
-                Ashik for his outstanding contributions and professional
+                Mansoor Ashik has been a fantastic UI/UX designer for our company. He's hardworking, creative, and always friendly. His
+                dedication to his work is commendable, and we highly recommend Ashik for his outstanding contributions and professional
                 excellence.
               </p>
               <div className="profile">
-                <img
-                  src={testimonialTwo}
-                  alt="testimonial-two"
-                  loading="lazy"
-                />
+                <img src={testimonialTwo} alt="testimonial-two" loading="lazy" />
                 <div>
                   <p className="testimonial-name">Raj Kumar R</p>
-                  <p className="testimonial-role">
-                    Co-Founder & COO, YOUNG GLOBES
-                  </p>
+                  <p className="testimonial-role">Co-Founder & COO, YOUNG GLOBES</p>
                 </div>
               </div>
             </div>
@@ -104,27 +78,17 @@ export const Testimonials = () => {
           <SwiperSlide className="h-auto">
             <div className="testimonial-card">
               <p className="testimonial-desc">
-                I have had the pleasure of working closely with Mansoor. He is
-                an exceptional professional who consistently demonstrates
-                remarkable expertise and dedication in his field. I
-                wholeheartedly recommend Mansoor to any organization or
-                individual seeking a highly skilled professional with
-                exceptional dedication, a collaborative spirit, and a passion
-                for excellence. His contributions have consistently exceeded
-                expectations, and I have no doubt he will continue to thrive and
-                make significant contributions wherever he is.
+                I have had the pleasure of working closely with Mansoor. He is an exceptional professional who consistently
+                demonstrates remarkable expertise and dedication in his field. I wholeheartedly recommend Mansoor to any organization
+                or individual seeking a highly skilled professional with exceptional dedication, a collaborative spirit, and a passion
+                for excellence. His contributions have consistently exceeded expectations, and I have no doubt he will continue to
+                thrive and make significant contributions wherever he is.
               </p>
               <div className="profile">
-                <img
-                  src={testimonialTwo}
-                  alt="testimonial-two"
-                  loading="lazy"
-                />
+                <img src={testimonialTwo} alt="testimonial-two" loading="lazy" />
                 <div>
                   <p className="testimonial-name">Shubham</p>
-                  <p className="testimonial-role">
-                    Co-Founder & COO, YOUNG GLOBES
-                  </p>
+                  <p className="testimonial-role">Co-Founder & COO, YOUNG GLOBES</p>
                 </div>
               </div>
             </div>

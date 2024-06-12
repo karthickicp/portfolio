@@ -40,7 +40,10 @@ export const MyLearning = () => {
             slidesPerView={1}
             spaceBetween={24}
             loop={true}
-            autoplay={true}
+            autoplay={{
+              disableOnInteraction: true,
+              pauseOnMouseEnter: true
+            }}
             modules={[Pagination, Navigation, Autoplay]}
             className="mySwiper flex-1"
           >
