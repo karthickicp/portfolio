@@ -5,15 +5,16 @@ export const MY_PROJECTS = [
     bg: "#142B48",
     img: "/images/work1.png",
     textColor: "light",
-    imgClass: "mt-[64px]",
+    imgClass: "md:mt-[64px] right-0 bottom-0",
   },
   {
     category: "health care",
     title: `eMAR - Responsive Website Design`,
     bg: "#4F6076",
     img: "/images/work2.png",
+    // mobImg: '/images/mob/work2.png',
     textColor: "light",
-    imgClass: "mt-[90px]",
+    imgClass: "md:mt-[90px] right-0 bottom-0",
   },
   {
     category: "e-commerce",
@@ -21,13 +22,14 @@ export const MY_PROJECTS = [
     bg: "#931880",
     img: "/images/work3.png",
     textColor: "light",
-    imgClass: "absolute right-0 bottom-0",
+    imgClass: "right-0 bottom-0",
   },
   {
     category: "e-commerce",
     title: `Haye - Mobile App`,
     bg: "#0190DC",
     img: "/images/work4.png",
+    // mobImg: '/images/mob/work4.png',
     textColor: "light",
   },
   {
@@ -43,7 +45,7 @@ export const MY_PROJECTS = [
     bg: "#C8D2DC",
     img: "/images/work6.png",
     textColor: "dark",
-    imgClass: "absolute left-0 bottom-0",
+    // imgClass: "absolute left-0 bottom-0",
   },
 ];
 

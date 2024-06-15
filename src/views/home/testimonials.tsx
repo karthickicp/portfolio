@@ -2,6 +2,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import testimonialOne from "@/assets/img/testimonial/testimonial-1.png";
 import testimonialTwo from "@/assets/img/testimonial/testimonial-2.png";
+import testimonialThree from "@/assets/img/testimonial/testimonial-3.png";
+import testimonialFour from "@/assets/img/testimonial/testimonial-4.png";
+
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 export const Testimonials = () => {
@@ -14,12 +17,24 @@ export const Testimonials = () => {
         </div>
 
         <Swiper
-          slidesPerView={2}
-          spaceBetween={30}
           loop={true}
           autoplay={{
             disableOnInteraction: true,
             pauseOnMouseEnter: true,
+          }}
+          breakpoints={{
+            0: {
+              spaceBetween: 0,
+              slidesPerView: 1,
+            },
+            768: {
+              spaceBetween: 16,
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 2,
+              spaceBetween: 30,
+            },
           }}
           modules={[Pagination, Navigation, Autoplay]}
         >
@@ -67,7 +82,7 @@ export const Testimonials = () => {
                 excellence.
               </p>
               <div className="profile">
-                <img src={testimonialTwo} alt="testimonial-two" loading="lazy" />
+                <img src={testimonialThree} alt="testimonial-two" loading="lazy" />
                 <div>
                   <p className="testimonial-name">Raj Kumar R</p>
                   <p className="testimonial-role">Co-Founder & COO, YOUNG GLOBES</p>
@@ -85,7 +100,7 @@ export const Testimonials = () => {
                 thrive and make significant contributions wherever he is.
               </p>
               <div className="profile">
-                <img src={testimonialTwo} alt="testimonial-two" loading="lazy" />
+                <img src={testimonialFour} alt="testimonial-two" loading="lazy" className="w-20 h-20 rounded-full" />
                 <div>
                   <p className="testimonial-name">Shubham</p>
                   <p className="testimonial-role">Co-Founder & COO, YOUNG GLOBES</p>

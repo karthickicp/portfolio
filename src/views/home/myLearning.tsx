@@ -22,11 +22,11 @@ export const MyLearning = () => {
           <h2 className="sec-title ">Course Certifications</h2>
         </div>
 
-        <div className="flex items-center gap-[140px]">
-          <div className="divide-y divide-[#6465674D] flex-1">
+        <div className="w-full flex flex-col-reverse items-center gap-[30px] lg:gap-[140px] lg:flex-row">
+          <div className="w-full divide-y divide-[#6465674D] flex-1">
             {CERTIFICATIONS.map((certificate, index) => (
-              <div key={`certificate-${index}`} className="py-6">
-                <p className="text-[34px] leading-[49.98px] mb-[10px] text-black font-bold">
+              <div key={`certificate-${index}`} className="py-4 lg:py-6">
+                <p className="title-secondary mb-2 text-black font-bold lg:text-[34px] lg:leading-[49.98px] lg:mb-[10px]">
                   {certificate.title}
                 </p>
                 <p className="text-paragraph tracking-wide">
@@ -44,8 +44,9 @@ export const MyLearning = () => {
               disableOnInteraction: true,
               pauseOnMouseEnter: true
             }}
+            
             modules={[Pagination, Navigation, Autoplay]}
-            className="mySwiper flex-1"
+            className="mySwiper flex-1 w-full max-w-[520px]"
           >
             <SwiperSlide>
               <img src={certificateOne} alt="certificate-1" />
