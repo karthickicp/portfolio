@@ -8,8 +8,8 @@ export const Header = () => {
       <div className="container">
         <div className="flex justify-between items-center mt-[3rem] text-black">
           <div>
-            <p className="font-semibold text-[22px] leading-[2.125rem] mb-[6px] tracking-[1.25px]">Mohammad Mansoor Ashik</p>
-            <p className="font-medium tracking-widest leading-6">UI & UX DESIGNER</p>
+            <p className="font-semibold text-[22px] leading-[2.125rem] mb-[6px] tracking-space-2">Mohammad Mansoor Ashik</p>
+            <p className="font-medium tracking-space-24 leading-6">UI & UX DESIGNER</p>
           </div>
           <div className="hidden gap-4 md:flex">
             <OutlinedBtn buttonText={"LinkedIn"} />

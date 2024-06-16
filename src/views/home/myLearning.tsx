@@ -26,10 +26,10 @@ export const MyLearning = () => {
           <div className="w-full divide-y divide-[#6465674D] flex-1">
             {CERTIFICATIONS.map((certificate, index) => (
               <div key={`certificate-${index}`} className="py-4 lg:py-6">
-                <p className="title-secondary mb-2 text-black font-bold lg:text-[34px] lg:leading-[49.98px] lg:mb-[10px]">
+                <p className="title-secondary mb-2 text-black font-bold tracking-space-2 lg:text-[34px] lg:leading-[49.98px] lg:mb-[10px]">
                   {certificate.title}
                 </p>
-                <p className="text-paragraph tracking-wide">
+                <p className="text-paragraph tracking-space-2">
                   {certificate.date}
                 </p>
               </div>

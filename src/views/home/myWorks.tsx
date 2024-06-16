@@ -21,8 +21,8 @@ export const MyWorks = () => {
               style={{ backgroundColor: `${project.bg}` }}
             >
               <div className="pl-[30px] pr-[10px] lg:px-[60px] relative z-10 case-study-desc">
-                <p className="font-medium tracking-widest uppercase mb-3 opacity-70">{project.category}</p>
-                <p className="title-secondary tracking-[0.10px] lg:text-[2.125rem] lg:leading-[3.125rem] font-extrabold capitalize mb-[30px]">{project.title}</p>
+                <p className="font-medium tracking-space-24 uppercase mb-3 opacity-70">{project.category}</p>
+                <p className="title-secondary tracking-space-2 lg:text-[2.125rem] lg:leading-[3.125rem] font-extrabold capitalize mb-[30px]">{project.title}</p>
                 <div className="hidden items-center case-study w-full transition-opacity duration-1000 lg:flex">
                   <p className="testimonial-role me-3 font-bold">View Case Study</p>
                   <img src={arrowRight} alt="arrow-right" loading="lazy" />
