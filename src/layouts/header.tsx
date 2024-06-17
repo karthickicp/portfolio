@@ -4,7 +4,7 @@ import { OutlinedBtn } from "@/components";
 
 export const Header = () => {
   return (
-    <header className="wrapper">
+    <header className="wrapper mb-4 lg:mb-0">
       <div className="container">
         <div className="flex justify-between items-center mt-[3rem] text-black">
           <div>

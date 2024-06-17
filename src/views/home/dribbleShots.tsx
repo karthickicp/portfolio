@@ -65,7 +65,7 @@ export const DribbleShots = () => {
           </div>
           </SwiperSlide>
         </Swiper>
-        {/* <div className="w-full float-start flex justify-between gap-[70px]">
+        {/* <div className="w-full float-left flex justify-between gap-[70px]">
           <div className="dribble-image-cover bg-[#E8ECED]">
             <img
               src={dribbleShotOne}
