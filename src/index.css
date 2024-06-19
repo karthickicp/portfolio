@@ -71,7 +71,7 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
-  transform: translateY(100px);
+  /* transform: translateY(100px); */
 
 }
 

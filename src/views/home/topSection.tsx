@@ -11,7 +11,7 @@ export const TopSection = () => {
       </h1> */}
       <div className="w-full float-left top-sec-wrapper ">
         <div className="container h-full">
-          <div className="flex flex-col-reverse items-center h-full descSec md:flex-row 3xl:items-end">
+          <div className="flex flex-col-reverse items-center h-full descSec md:flex-row xl:items-end">
             <div className="flex-1">
               <div className="flex items-center">
                 <img src={hand} alt="hand-sign" className="me-4 w-[46px] h-[46px] md:w-auto md:h-auto" />
@@ -44,7 +44,7 @@ export const TopSection = () => {
             </a> */}
               </div>
             </div>
-            <div className="relative flex-1 flex justify-end topsec-img">
+            <div className="relative flex-1 flex justify-end topsec-img xl:translate-y-[100px]">
               <img
                 src={profilePicture}
                 alt="profile-picture"
