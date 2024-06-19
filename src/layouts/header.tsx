@@ -1,21 +1,17 @@
 import { OutlinedBtn } from "@/components";
 
-import arrowWhite from "@/assets/img/icons/arrow-white.svg";
+// import arrowWhite from "@/assets/img/icons/arrow-white.svg";
 
 export const Header = () => {
   return (
-    <header className="wrapper">
+    <header className="wrapper mb-4 lg:mb-0">
       <div className="container">
         <div className="flex justify-between items-center mt-[3rem] text-black">
           <div>
-            <p className="font-semibold text-[22px] leading-[2.125rem]">
-              Mohammad Mansoor Ashik
-            </p>
-            <p className="font-medium tracking-widest leading-6">
-              UI & UX DESIGNER
-            </p>
+            <p className="font-semibold text-[22px] leading-[2.125rem] mb-[6px] tracking-space-2">Mohammad Mansoor Ashik</p>
+            <p className="font-medium tracking-space-24 leading-6">UI & UX DESIGNER</p>
           </div>
-          <div className="flex gap-4">
+          <div className="hidden gap-4 md:flex">
             <OutlinedBtn buttonText={"LinkedIn"} />
             {/* <a
               href="#"
@@ -23,12 +19,14 @@ export const Header = () => {
             >
               LinkedIn <img src={arrowBlack} alt="arrow-white" />
             </a> */}
-            <a
+            <OutlinedBtn buttonText={"My Resume"} />
+
+            {/* <a
               href="#"
               className="text-white bg-black border-black rounded-full px-4 py-2 text-md border-2 flex items-center gap-2"
             >
               My Resume <img src={arrowWhite} alt="arrow-black" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
