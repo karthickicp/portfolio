@@ -51,7 +51,7 @@ export const Testimonials = () => {
                 <img src={testimonialOne} alt="testimonial-one" loading="lazy" />
                 <div>
                   <p className="testimonial-name">Altaf Rahman</p>
-                  <p className="testimonial-role">Co-Founder, Cyberspace Builder</p>
+                  <p className="testimonial-role">Co-Founder, Victor Themes</p>
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ export const Testimonials = () => {
                 <img src={testimonialTwo} alt="testimonial-two" loading="lazy" />
                 <div>
                   <p className="testimonial-name">Ansif</p>
-                  <p className="testimonial-role">Co-Founder, Cyberspace Builder</p>
+                  <p className="testimonial-role">Co-Founder, Victor Themes</p>
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@ export const Testimonials = () => {
                 <img src={testimonialFour} alt="testimonial-two" loading="lazy" className="w-20 h-20 rounded-full" />
                 <div>
                   <p className="testimonial-name">Shubham</p>
-                  <p className="testimonial-role">Co-Founder & COO, YOUNG GLOBES</p>
+                  <p className="testimonial-role">Founder & Managing Director, PAS Ventures Pvt Ltd</p>
                 </div>
               </div>
             </div>

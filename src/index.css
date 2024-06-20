@@ -37,7 +37,7 @@ body {
 
 .top-sec-wrapper {
   float: left;
-  background-image: url("./assets/img/top-sec-bg.png");
+  /* background-image: url("./assets/img/top-sec-bg.png"); */
   background-position: top;
   background-size: cover;
   width: 100%;
@@ -71,7 +71,6 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
-  /* transform: translateY(100px); */
 }
 
 /* .topsec-img::after {
@@ -107,7 +106,7 @@ body {
   @apply text-black text-[1.875rem] leading-[44.1px] font-extrabold tracking-space-1 lg:text-[4.25rem] lg:leading-[90px];
 }
 .sec-category {
-  @apply text-[12px] leading-[17.64px] mb-2 tracking-space-24 lg:text-[1.125rem] lg:leading-[1.654rem] lg:mb-[0.875rem];
+  @apply text-[12px] leading-[17.64px] mb-2 tracking-space-24 lg:text-[1.125rem] lg:leading-[1.654rem] lg:mb-[0.875rem] text-[#666];
 }
 .wrapper {
   @apply w-full float-left;
@@ -141,6 +140,9 @@ body {
 }
 .title-secondary {
   @apply text-[28px] leading-[41.16px];
+}
+.para-text {
+  @apply lg:text-[22px] lg:leading-9
 }
 
 /* responsive */

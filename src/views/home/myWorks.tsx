@@ -24,7 +24,7 @@ export const MyWorks = () => {
                 <p className="font-medium tracking-space-24 uppercase mb-3 opacity-70">{project.category}</p>
                 <p className="title-secondary tracking-space-2 lg:text-[2.125rem] lg:leading-[3.125rem] font-extrabold capitalize mb-[30px]">{project.title}</p>
                 <div className="hidden items-center case-study w-full transition-opacity duration-1000 lg:flex">
-                  <p className="testimonial-role me-3 font-bold">View Case Study</p>
+                  <p className="testimonial-role me-3 font-bold">{project.hoverText}</p>
                   <img src={arrowRight} alt="arrow-right" loading="lazy" />
                 </div>
               </div>
