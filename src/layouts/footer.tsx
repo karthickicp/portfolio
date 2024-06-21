@@ -13,9 +13,13 @@ export const Footer = () => {
               alt="mail-icon"
               className="me-3 md:me-[0.875rem] float-left h-[26px] md:h-10"
             />
-            <span className="text-[22px] leading-[2.021rem] md:text-[28px] md:leading-[41.16px] text-black mt-1 inline-block">
+            <a
+              href="mailto:ashikuxd@gmail.com"
+              className="text-[22px] leading-[2.021rem] md:text-[28px] md:leading-[41.16px] text-black mt-1 inline-block cursor-pointer hover:underline"
+              target="_blank"
+            >
               Ashikuxd@gmail.com
-            </span>
+            </a>
           </div>
           <p className="testimonial-desc text-[#665D5D] leading-[1.654rem]">
             ©Mohammad Mansoor 2024
