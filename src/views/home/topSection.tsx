@@ -21,11 +21,11 @@ export const TopSection = () => {
                   alt="hand-sign"
                   className="me-4 w-[46px] h-[46px] md:w-auto md:h-auto"
                 />
-                <p className="welcome-text lg:text-[4.375rem] lg:leading-[6.431rem] font-extrabold w-auto float-left mb-1">
+                <p className="welcome-text font-extrabold w-auto float-left mb-1 text-black lg:text-[4.375rem] lg:leading-[6.431rem]">
                   Hello!
                 </p>
               </div>
-              <h1 className="text-[2.375rem] leading-[3.75rem] font-extrabold mb-6 lg:text-[4.375rem] lg:leading-[5.625rem] lg:mb-10">
+              <h1 className="text-[2.375rem] leading-[3.75rem] font-extrabold mb-6 text-black lg:text-[4.375rem] lg:leading-[5.625rem] lg:mb-10">
                 I'm Sr UI/UX Designer located in India
               </h1>
               <p className="text-paragraph para-text leading-7 mb-6">
