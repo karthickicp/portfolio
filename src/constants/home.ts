@@ -6,6 +6,7 @@ export const MY_PROJECTS = [
     img: "/images/work1.png",
     textColor: "light",
     imgClass: "md:mt-[64px] right-0 bottom-0",
+    hoverText: "View Case Study"
   },
   {
     category: "health care",
@@ -15,6 +16,8 @@ export const MY_PROJECTS = [
     // mobImg: '/images/mob/work2.png',
     textColor: "light",
     imgClass: "md:mt-[90px] right-0 bottom-0",
+    hoverText: "View Case Study"
+
   },
   {
     category: "e-commerce",
@@ -23,6 +26,8 @@ export const MY_PROJECTS = [
     img: "/images/work3.png",
     textColor: "light",
     imgClass: "right-0 bottom-0",
+    hoverText: "View Mobile App"
+
   },
   {
     category: "e-commerce",
@@ -31,6 +36,8 @@ export const MY_PROJECTS = [
     img: "/images/work4.png",
     // mobImg: '/images/mob/work4.png',
     textColor: "light",
+    hoverText: "View Mobile App"
+
   },
   {
     category: "business",
@@ -38,6 +45,8 @@ export const MY_PROJECTS = [
     bg: "#E9EBE8",
     img: "/images/work5.png",
     textColor: "dark",
+    hoverText: "View Website"
+
   },
   {
     category: "digital marketing",
@@ -46,6 +55,8 @@ export const MY_PROJECTS = [
     img: "/images/work6.png",
     textColor: "dark",
     // imgClass: "absolute left-0 bottom-0",
+    hoverText: "View Website"
+
   },
 ];
 
