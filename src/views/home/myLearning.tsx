@@ -29,9 +29,7 @@ export const MyLearning = () => {
                 <p className="title-secondary mb-2 text-black font-bold tracking-space-2 lg:text-[34px] lg:leading-[49.98px] lg:mb-[10px]">
                   {certificate.title}
                 </p>
-                <p className="text-paragraph tracking-space-2">
-                  {certificate.date}
-                </p>
+                <p className="text-paragraph tracking-space-2">{certificate.date}</p>
               </div>
             ))}
           </div>
@@ -41,10 +39,11 @@ export const MyLearning = () => {
             spaceBetween={24}
             loop={true}
             autoplay={{
+              delay: 3000,
               disableOnInteraction: true,
-              pauseOnMouseEnter: true
+              pauseOnMouseEnter: true,
             }}
-            
+            speed={2000}
             modules={[Pagination, Navigation, Autoplay]}
             className="mySwiper flex-1 w-full max-w-[520px]"
           >

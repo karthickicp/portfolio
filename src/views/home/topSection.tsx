@@ -39,7 +39,7 @@ export const TopSection = () => {
                 <OutlinedBtn buttonText={"My Resume"} />
               </div>
             </div>
-            <div className="relative flex-1 flex justify-end topsec-img xl:translate-y-[150px] 2xl:absolute 2xl:right-0">
+            <div className="relative flex-1 flex justify-end topsec-img xl:translate-y-[200px] 2xl:absolute 2xl:right-0">
               <img src={profilePicture} alt="profile-picture" />
               <div className="topsec-shadow w-full h-full absolute float-left"></div>
             </div>

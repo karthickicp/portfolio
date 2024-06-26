@@ -19,9 +19,11 @@ export const Testimonials = () => {
         <Swiper
           loop={true}
           autoplay={{
+            delay: 3000,
             disableOnInteraction: true,
             pauseOnMouseEnter: true,
           }}
+          speed={2000}
           breakpoints={{
             0: {
               spaceBetween: 0,
@@ -78,7 +80,7 @@ export const Testimonials = () => {
             <div className="testimonial-card">
               <p className="testimonial-desc">
                 Mansoor Ashik has been a fantastic UI/UX designer for our company. He's hardworking, creative, and always friendly. His
-                dedication to his work is commendable, and we highly recommend Ashik for his outstanding contributions and professional
+                dedication to his work is commendable, and we highly recommend Ashik for his <br /> outstanding contributions and professional
                 excellence.
               </p>
               <div className="profile">
@@ -96,7 +98,7 @@ export const Testimonials = () => {
                 I have had the pleasure of working closely with Mansoor. He is an exceptional professional who consistently
                 demonstrates remarkable expertise and dedication in his field. I wholeheartedly recommend Mansoor to any organization
                 or individual seeking a highly skilled professional with exceptional dedication, a collaborative spirit, and a passion
-                for excellence. His contributions have consistently exceeded expectations, and I have no doubt he will continue to
+                for excellence. His contributions have consistently exceeded expectations, and I have no doubt he will continue to <br />
                 thrive and make significant contributions wherever he is.
               </p>
               <div className="profile">

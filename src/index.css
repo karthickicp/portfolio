@@ -11,6 +11,7 @@ body {
   width: 100%;
   float: left;
   font-family: "Helvetica Now Display" !important;
+  user-select: none;
 }
 .container {
   width: min(calc(100% - 40px), 87.5rem) !important;

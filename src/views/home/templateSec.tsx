@@ -14,7 +14,7 @@ export const TemplateSec = () => {
               setting new standards.
             </p>
           </div>
-          <OutlinedBtn buttonText="View All Templates" className={"flex-1 min-w-[200px]"} />
+            <OutlinedBtn buttonText="View All Templates" className={"flex-1 min-w-[200px]"} link="https://themeforest.net/user/victorthemes"/>
         </div>
       </div>
     </section>

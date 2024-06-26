@@ -15,20 +15,18 @@ export const DribbleShots = () => {
           <div className="flex items-baseline">
             <h2 className="sec-title">Dribbble Shots</h2>
             <a href="https://dribbble.com/ashiksahan" target="_blank">
-              <img
-                src={shareIcon}
-                alt="share-icon"
-                className="ml-4 w-[26px] h-[26px] md:w-9 md:h-9"
-              />
+              <img src={shareIcon} alt="share-icon" className="ml-4 w-[26px] h-[26px] md:w-9 md:h-9" />
             </a>
           </div>
         </div>
         <Swiper
           loop={true}
           autoplay={{
+            delay: 3000,
             disableOnInteraction: true,
             pauseOnMouseEnter: true,
           }}
+          speed={2000}
           breakpoints={{
             0: {
               spaceBetween: 0,
@@ -47,32 +45,17 @@ export const DribbleShots = () => {
         >
           <SwiperSlide>
             <div className="dribble-image-cover bg-[#E8ECED]">
-              <img
-                src={dribbleShotOne}
-                alt="dribble-shot-1"
-                loading="lazy"
-                className="dribble-images"
-              />
+              <img src={dribbleShotOne} alt="dribble-shot-1" loading="lazy" className="dribble-images" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="dribble-image-cover bg-[#F1F1F1]">
-              <img
-                src={dribbleShotTwo}
-                alt="dribble-shot-2"
-                loading="lazy"
-                className="dribble-images"
-              />
+              <img src={dribbleShotTwo} alt="dribble-shot-2" loading="lazy" className="dribble-images" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="dribble-image-cover bg-[#E2E4F0]">
-              <img
-                src={dribbleShotThree}
-                alt="dribble-shot-3"
-                loading="lazy"
-                className="dribble-images"
-              />
+              <img src={dribbleShotThree} alt="dribble-shot-3" loading="lazy" className="dribble-images" />
             </div>
           </SwiperSlide>
         </Swiper>
