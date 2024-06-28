@@ -7,7 +7,7 @@ export const MY_PROJECTS = [
     textColor: "light",
     imgClass: "md:mt-[64px] right-0 bottom-0",
     hoverText: "View Case Study",
-    link: "https://mioamoreshop.com/",
+    link: "https://drive.google.com/file/d/1uootZLFAIt42Q2A639uRpa6W_l_0r4du/view?usp=sharing",
   },
   {
     category: "health care",
@@ -17,7 +17,7 @@ export const MY_PROJECTS = [
     textColor: "light",
     imgClass: "md:mt-[90px] right-0 bottom-0",
     hoverText: "View Case Study",
-    link: "https://mioamoreshop.com/",
+    link: "https://drive.google.com/file/d/1sJ4-NyKIIuVH7vP9GcVzGunmCZY8iiSB/view?usp=sharing",
   },
   {
     category: "e-commerce",

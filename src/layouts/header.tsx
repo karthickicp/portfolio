@@ -14,14 +14,20 @@ export const Header = () => {
             </p>
           </div>
           <div className="hidden gap-4 md:flex">
-            <OutlinedBtn buttonText={"LinkedIn"} />
+            <OutlinedBtn
+              buttonText={"LinkedIn"}
+              link="https://www.linkedin.com/in/mohammad-ashik-m-3a9877198/"
+            />
             {/* <a
               href="#"
               className="text-black border-black rounded-full px-4 py-2 border-2 flex items-center gap-4"
             >
               LinkedIn <img src={arrowBlack} alt="arrow-white" />
             </a> */}
-            <OutlinedBtn buttonText={"My Resume"} />
+            <OutlinedBtn
+              buttonText={"My Resume"}
+              link="https://drive.google.com/file/d/1hM-XQwQRZ-yfdyCtieXZLBnfuwWNxgQ4/view?usp=sharing"
+            />
 
             {/* <a
               href="#"

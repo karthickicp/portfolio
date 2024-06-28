@@ -35,8 +35,14 @@ export const TopSection = () => {
                 insights.
               </p>
               <div className="flex gap-4 md:hidden">
-                <OutlinedBtn buttonText={"LinkedIn"} />
-                <OutlinedBtn buttonText={"My Resume"} />
+                <OutlinedBtn
+                  buttonText={"LinkedIn"}
+                  link="https://www.linkedin.com/in/mohammad-ashik-m-3a9877198/"
+                />
+                <OutlinedBtn
+                  buttonText={"My Resume"}
+                  link="https://drive.google.com/file/d/1hM-XQwQRZ-yfdyCtieXZLBnfuwWNxgQ4/view?usp=sharing"
+                />
               </div>
             </div>
             <div className="relative flex-1 flex justify-end topsec-img xl:translate-y-[200px] 2xl:absolute 2xl:right-0">
