@@ -10,13 +10,13 @@ export const Footer = () => {
     navigator.clipboard.writeText("info@mohammadmansoor.com");
   };
   return (
-    <footer className="wrapper pt-[60px] pb-10 border-[0.094rem] border-[#DFDFDF] md:pt-[8.75rem] md:pb-20">
+    <footer className="wrapper pt-[60px] pb-10 border-[0.094rem] border-gray-300 md:pt-[8.75rem] md:pb-20">
       <div className="container">
         <h1 className="sec-title mb-9 max-w-[1140px] tracking-space-1 md:mb-[2.875rem]">
           Let's Connect and Blend Creativity with Functionality!
         </h1>
         <div>
-          <div className="mb-4 flex items-center">
+          <div className="mb-4 flex items-center flex-wrap">
             <img
               src={mailIcon}
               alt="mail-icon"
@@ -38,13 +38,13 @@ export const Footer = () => {
               />
             </div>
           </div>
-          <p className="testimonial-desc text-[#665D5D] leading-[1.654rem]">
+          <p className="testimonial-desc text-copyright leading-[1.654rem] copyright">
             &copy;Mohammad Mansoor 2024
           </p>
         </div>
       </div>
       <Snackbar
-        message="Copied"
+        message="Copied email address"
         isVisible={isSnackbarVisible}
         onClose={() => setIsSnackbarVisible(false)}
       />
