@@ -26,7 +26,7 @@ export const Testimonials = () => {
           speed={2000}
           breakpoints={{
             0: {
-              spaceBetween: 0,
+              spaceBetween: 16,
               slidesPerView: 1,
             },
             768: {

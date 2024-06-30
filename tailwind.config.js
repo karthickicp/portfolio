@@ -26,6 +26,7 @@ export default {
       },
       screens: {
         "3xl": "1600px",
+        'touch-hover': {'raw': '(hover: hover)'},
       },
       textColor: {
         paragraph: "#646567",
@@ -55,6 +56,9 @@ export default {
       wider: ".10em",
       widest: ".20em",
     },
+  },
+  future: {
+    hoverOnlyWhenSupported: true
   },
   plugins: [],
 };

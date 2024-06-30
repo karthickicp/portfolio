@@ -25,7 +25,7 @@ export const Footer = () => {
             <div className="flex items-baseline gap-[0.625rem]">
               <a
                 href="mailto:info@mohammadmansoor.com"
-                className="text-[22px] leading-[2.021rem] md:text-[28px] md:leading-[41.16px] text-paragraph mt-1 inline-block cursor-pointer hover:underline"
+                className="text-[22px] leading-[2.021rem] md:text-[28px] md:leading-[41.16px] text-paragraph mt-1 inline-block cursor-pointer"
                 target="_blank"
               >
                 Info@mohammadmansoor.com
