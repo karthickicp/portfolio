@@ -131,7 +131,7 @@ body {
     background-image: none;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .top-sec-wrapper {
     height: calc(100vh - 112px);
   }
