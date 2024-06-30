@@ -6,7 +6,7 @@ export const MyWorks = () => {
       <div className="container">
         <p className="sec-category">MY PORTFOLIO</p>
         <h2 className="sec-title mb-5 lg:mb-10">Selected Works</h2>
-        <p className="text-[#666] para-text">
+        <p className=" text-category para-text">
           I've worked on lots of different projects, leading efforts to understand users and turn that understanding into designs that
           just make sense. I believe in working together to create awesome things.
         </p>
@@ -21,7 +21,7 @@ export const MyWorks = () => {
               style={{ backgroundColor: `${project.bg}` }}
             >
               <div className="pl-[30px] pr-[10px] lg:px-[60px] relative z-10 case-study-desc">
-                <p className="font-medium tracking-space-24 uppercase mb-3 text-[#FFFFFFB2]">{project.category}</p>
+                <p className="font-medium tracking-space-24 uppercase mb-3 text-white/70">{project.category}</p>
                 <p className="title-secondary tracking-space-2 lg:text-[2.125rem] lg:leading-[3.125rem] font-extrabold capitalize mb-[30px]">
                   {project.title}
                 </p>

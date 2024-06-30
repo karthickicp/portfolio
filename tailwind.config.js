@@ -5,12 +5,32 @@ export default {
     extend: {
       colors: {
         black: "#0F141E",
+        gray: "#878A8F",
+        "pitchBlack": "#000",
+      },
+      borderColor: {
+        gray: {
+          300: "#DFDFDF",
+        },
+        blue: {
+          100: "#CEE7FF",
+        },
+        green: {
+          700: "#008320"
+        }
+      },
+      divideColor: {
+        gray: {
+          600: "#646567",
+        },
       },
       screens: {
         "3xl": "1600px",
       },
       textColor: {
         paragraph: "#646567",
+        category: "#666",
+        copyright: "#665D5D",
       },
       transitionProperty: {
         transform: "transform",
@@ -21,6 +41,9 @@ export default {
       translate: {
         full: "100%",
         0: "0",
+      },
+      backgroundColor: {
+        "halfWhite": "#F7F8F9",
       },
     },
     letterSpacing: {

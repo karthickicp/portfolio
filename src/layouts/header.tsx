@@ -6,18 +6,16 @@ export const Header = () => {
       <div className="container">
         <div className="flex justify-between items-center mt-[3rem] text-black">
           <div>
-            <p className="font-semibold text-[22px] leading-[2.125rem] mb-[6px] tracking-space-2">
-              Mohammad Mansoor Ashik
-            </p>
-            <p className="font-medium tracking-space-24 leading-6">
-              UI & UX DESIGNER
-            </p>
+            <p className="font-semibold text-[22px] leading-[2.125rem] mb-[6px] tracking-space-2">Mohammad Mansoor Ashik</p>
+            <a
+              href="mailto:info@mohammadmansoor.com"
+              className="block leading-[23.52px] tracking-space-2 text-paragraph hover:underline md:text-[18px] md:leading-[26.46px]"
+            >
+              Info@mohammadmansoor.com
+            </a>
           </div>
           <div className="hidden gap-4 md:flex">
-            <OutlinedBtn
-              buttonText={"LinkedIn"}
-              link="https://www.linkedin.com/in/mohammad-ashik-m-3a9877198/"
-            />
+            <OutlinedBtn buttonText={"LinkedIn"} link="https://www.linkedin.com/in/mohammad-ashik-m-3a9877198/" />
             {/* <a
               href="#"
               className="text-black border-black rounded-full px-4 py-2 border-2 flex items-center gap-4"
